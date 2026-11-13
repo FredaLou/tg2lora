@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Data
+data/*.json
+data/*.jsonl
+!data/.gitkeep
+
+# Binaries & models
+llama_cpp_bin/
+models/
+vectors/
+
+# Legacy
+legacy/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Temp
+tmp/
+temp_shit/
